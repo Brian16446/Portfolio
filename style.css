@@ -5,6 +5,10 @@ body{
     background-size: cover;
 }
 
+::selection{
+    background-color: rgb(250, 126, 54);
+}
+
 #main{
     background-image: url('IMGS/bluegradient.jpg');
     background-size: cover;
@@ -152,9 +156,6 @@ i{
     margin: 0 auto;
 }
 
-.carousel-control-next, .carousel-control-prev, .carousel-indicators{
-    filter: invert(100%);
-}
 
 #view-projects{
     margin: 10px;
