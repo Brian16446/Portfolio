@@ -34,12 +34,12 @@ a:hover{
     text-decoration: none;
 }
 
-#results-link{
+.alt-a{
     color: #DE6449;
     font-weight: bold;
 }
-#results-link:hover{
-    text-decoration: underline;
+.alt-a:hover{
+    color: #fff;
 }
 
 .text-link{
@@ -164,6 +164,9 @@ i{
     margin: 0 auto;
 }
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+  }
 
 #view-projects{
     margin: 10px;
